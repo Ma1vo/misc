@@ -27,7 +27,7 @@ This bot uses :
 - Settings for the bot are included at the beginning of Scranton_Guesser.py :
   - resolution : resolution of the screen ffmpeg takes, lower is quicker but loses quality, 640x360 seems like a good compromise
   - offset : seconds offset. 1 second after the subtitle timestamp seems like a good spot
-  - random_shuffle : turn on if you want the bot to get 10 random scenes if it finds more than 10
+  - random_shuffle : turn on if you want the bot to get 10 random scenes if it finds more than 10, turn off if you want the bot to output the first 10 matching scenes in chronological order
   - delete_query : turn on if you want the bot to delete the original query message
   - show_info : turn on if you want the bot to include the season, episode and timestamp of the scene
   
