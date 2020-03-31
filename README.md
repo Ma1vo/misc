@@ -1,6 +1,9 @@
 # Scranton-Guesser
 A Python Discord bot that turns quotes from a series to screenshots.
 
+![Example 1](https://imgur.com/a/9m82MR4)
+![Example 2](https://imgur.com/a/SveBafp)
+
 ## Dependencies :
 This bot uses :
 - [ffmpeg](http://ffmpeg.org/download.html) for opening video file and outputting a screenshot
