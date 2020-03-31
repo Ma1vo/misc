@@ -4,7 +4,7 @@ A Python Discord bot that turns quotes from a series to screenshots.
 ## Dependencies :
 This bot uses :
 - [ffmpeg](http://ffmpeg.org/download.html) for opening video file and outputting a screenshot
-- the Discord python package : you can install it with pip : 
+- the Discord python library that you can install with pip : 
   >py -3 -m pip install -U discord.py
 
 ## Usage :
