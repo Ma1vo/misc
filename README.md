@@ -16,7 +16,22 @@ A Python Discord bot that turns quotes from a series to screenshots.
 ## How to run it :
 - Clone this repository
 - Change the token var in Scranton_Guesser.py to your Discord Bot token
-- Change the series, commands and paths in series.json
+- In series.json, add your own series :
+  - 'queryCommand' is the command you call the Discord bot with
+  - 'subsFolder' is the folder where the subtitles are located in
+  - 'videoFolder' is the folder where the video files are located in
+- Subtitles folder must follow this folder format :
+  - SubtitleFolder/
+    - S01
+      - EP1.srt
+      - EP2.srt
+      - ...
+    - S02
+      - EP1.srt
+      - EP2.srt
+      - ...
+    -...
+  The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot can only read .srt files.  
 
 ## Optional :
 If you want to run this bot on your computer
