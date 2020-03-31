@@ -1,8 +1,6 @@
 # Scranton-Guesser
 A Python Discord bot that turns quotes from a series to screenshots.
 
-![Example 1](https://i.imgur.com/grUszLT.png)
-
 ![Example 2](https://i.imgur.com/xxD68a0.png)
 
 ## Dependencies :
@@ -26,6 +24,13 @@ This bot uses :
 ## How to run it :
 - Clone this repository
 - Change the token var in Scranton_Guesser.py to your Discord Bot token
+- Settings for the bot are included at the beginning of Scranton_Guesser.py :
+  - resolution : resolution of the screen ffmpeg takes, lower is quicker but loses quality, 640x360 seems like a good compromise
+  - offset : seconds offset. 1 second after the subtitle timestamp seems like a good spot
+  - random_shuffle : turn on if you want the bot to get 10 random scenes if it finds more than 10
+  - delete_query : turn on if you want the bot to delete the original query message
+  - show_info : turn on if you want the bot to include the season, episode and timestamp of the scene
+  
 - In series.json, add your own series :
   - 'queryCommand' is the command you call the Discord bot with
   - 'subsFolder' is the folder where the subtitles are located in
