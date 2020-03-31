@@ -1,8 +1,9 @@
 # Scranton-Guesser
 A Python Discord bot that turns quotes from a series to screenshots.
 
-![Example 1](https://imgur.com/a/9m82MR4)
-![Example 2](https://imgur.com/a/SveBafp)
+![Example 1](https://i.imgur.com/grUszLT.png)
+
+![Example 2](https://i.imgur.com/xxD68a0.png)
 
 ## Dependencies :
 This bot uses :
