@@ -31,7 +31,7 @@ A Python Discord bot that turns quotes from a series to screenshots.
       - EP2.srt
       - ...
     -...
-  The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot can only read .srt files.  
+The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot can only read .srt files.  
 
 ## Optional :
 If you want to run this bot on your computer
