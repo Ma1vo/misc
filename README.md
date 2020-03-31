@@ -6,8 +6,11 @@ A Python Discord bot that turns quotes from a series to screenshots.
 
 ### For example :
 >/office quarantine
+
 >/office S03 Jim
+
 >/parks Pawnee
+
 >/parks S01 Leslie
 
 ## How to run it :
