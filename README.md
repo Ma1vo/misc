@@ -1,6 +1,12 @@
 # Scranton-Guesser
 A Python Discord bot that turns quotes from a series to screenshots.
 
+## Dependencies :
+This bot uses :
+- [ffmpeg](http://ffmpeg.org/download.html) for opening video file and outputting a screenshot
+- the Discord python package : you can install it with pip : 
+  >py -3 -m pip install -U discord.py
+
 ## Usage :
 /seriescommand (optional season filter) quote
 
@@ -30,12 +36,14 @@ A Python Discord bot that turns quotes from a series to screenshots.
       - EP1.srt
       - EP2.srt
       - ...
-    -...
+    - ...
     
-   The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot **can only read utf-8 encoded .srt files.**
+   The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot **can only read utf-8 encoded .srt files.** 
+   
+   (If all your subtitles are encoded in something else, first of all why, but you can always change the encoding in the search_sub function.)
 
 ## Optional :
 If you want to run this bot silently at startup :
-- Create a copy of Scranton_Guesser.py and change the extension to .pyw (runs the script without a console)
+- Create a copy of Scranton_Guesser.py and change the extension to .pyw (this runs the script without a console)
 - Create a shortcut of this file
 - Copy/Paste this shortcut in the startup folder (Windows Key + R, 'shell:startup')
