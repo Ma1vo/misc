@@ -1,0 +1,14 @@
+{
+  "series": [
+    {
+      "queryCommand":"/office",
+      "subsFolder":"office/",
+      "videoFolder":"C:/Users/Admin/Videos/The Office/"
+    },
+    {
+      "queryCommand":"/parks",
+      "subsFolder":"parks/",
+      "videoFolder":"C:/Users/Admin/Videos/Parks and Recreation/"
+    }
+  ]
+}
