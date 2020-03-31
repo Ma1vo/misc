@@ -31,10 +31,11 @@ A Python Discord bot that turns quotes from a series to screenshots.
       - EP2.srt
       - ...
     -...
-The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot can only read .srt files.  
+    
+   The season folders and the subtitle files do not need to follow any name formatting as long as their alphabetical order matches their chronological order, but the bot **can only read utf-8 encoded .srt files.**
 
 ## Optional :
-If you want to run this bot on your computer
+If you want to run this bot silently at startup :
 - Create a copy of Scranton_Guesser.py and change the extension to .pyw (runs the script without a console)
 - Create a shortcut of this file
 - Copy/Paste this shortcut in the startup folder (Windows Key + R, 'shell:startup')
