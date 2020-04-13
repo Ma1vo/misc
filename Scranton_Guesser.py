@@ -7,7 +7,7 @@ import random
 import json
 
 #bot settings
-token = 'NjY5MTQyNTg1NjI0NzU2MjM1.Xibh7A.Z4AzlQ_m6pRFuJbRYFQcFrT9-qo'
+token = 'Your-Token'
 base_command = 'ffmpeg -hide_banner -ss 00:{}:{} -loglevel panic -copyts -i "{}/S{}/{}" -vf subtitles="{}" -s {} -vframes 1 "output.png" -y'
 resolution = '640x360' #resolution of the screen ffmpeg takes, lower is quicker but loses quality, 640x360 seems like a good compromise
 offset = 1 #seconds offset. 1 second after the subtitle timestamp seems like a good spot
