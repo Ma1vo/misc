@@ -7,7 +7,7 @@ import random
 import json
 
 #bot settings
-token = 'Your-Token'
+token = 'Your-Discord-API-Token'
 base_command = 'ffmpeg -hide_banner -ss 00:{}:{} -loglevel panic -copyts -i "{}/S{}/{}" -vf subtitles="{}" -s {} -vframes 1 "output.png" -y'
 resolution = '640x360' #resolution of the screen ffmpeg takes, lower is quicker but loses quality, 640x360 seems like a good compromise
 offset = 1 #seconds offset. 1 second after the subtitle timestamp seems like a good spot
