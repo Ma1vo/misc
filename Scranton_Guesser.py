@@ -7,13 +7,13 @@ import random
 import json
 
 #bot settings
-token = 'Discord-Token'
+token = 'NjY5MTQyNTg1NjI0NzU2MjM1.Xibh7A.Z4AzlQ_m6pRFuJbRYFQcFrT9-qo'
 base_command = 'ffmpeg -hide_banner -ss 00:{}:{} -loglevel panic -copyts -i "{}/S{}/{}" -vf subtitles="{}" -s {} -vframes 1 "output.png" -y'
-resolution = '640x360'
-offset = 1
-random_shuffle = True
-delete_query = True
-show_info = True
+resolution = '640x360' #resolution of the screen ffmpeg takes, lower is quicker but loses quality, 640x360 seems like a good compromise
+offset = 1 #seconds offset. 1 second after the subtitle timestamp seems like a good spot
+random_shuffle = False #turn on if you want the bot to get 10 random scenes if it finds more than 10
+delete_query = False #turn on if you want the bot to delete the query message
+show_info = False #turn on if you want the bot to include the season, episode and timestamp of the scene
 
 #series
 series = []
@@ -131,7 +131,7 @@ async def on_message(message):
             if show_info:
                 answer = result[2] + 'E' + str(result[3]) + ',' + str(result[4]) + 'min' + str(result[5])
                 await message.channel.send(answer)
-            message.channel.send(file=result[1])
+            await message.channel.send(file=result[1])
             print(answer)
         else:
             if delete_query:
